@@ -1,0 +1,8 @@
+.popup-fix {
+  position: fixed !important;
+  left: 50% !important;
+  margin-left: 12rem;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 9999 !important;
+}
