@@ -23,7 +23,7 @@ export const CreateServer = async (req, res) => {
 
     const newServer = new Dserver({
       serverName,
-      serverIcon: serverIcon || "https://i.imgur.com/9Q9QZ9L.png",
+      serverIcon: serverIcon || "https://i.imgur.com/8nLFCVP.png",
     });
 
     await newServer.save();

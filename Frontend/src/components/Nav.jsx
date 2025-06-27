@@ -52,7 +52,7 @@ const Nav = forwardRef((props, ref) => {
         },
         body: JSON.stringify({
           serverName: formData.serverName,
-          serverIcon: formData.serverIcon || "https://i.imgur.com/9Q9QZ9L.png",
+          serverIcon: formData.serverIcon || "https://i.imgur.com/8nLFCVP.png",
         }),
       });
 
@@ -89,7 +89,7 @@ const Nav = forwardRef((props, ref) => {
     navigate(server.navigate || "/chat", {
       state: {
         serverName: server.name,
-        serverIcon: server.icon || "https://i.imgur.com/9Q9QZ9L.png",
+        serverIcon: server.icon || "https://i.imgur.com/8nLFCVP.png",
       },
     });
   };
